@@ -25,7 +25,13 @@ li {
   padding: 20px;
   font-size: 17px;
   position: relative;
+  border-right: 1px solid black;
 }
+li:last-child{
+  border-right: none
+
+}
+
 li:after {
   color: white;
   font-size: 13px;
